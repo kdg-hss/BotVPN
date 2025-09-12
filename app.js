@@ -299,7 +299,7 @@ bot.command('addserver', async (ctx) => {
   }
 
   const args = ctx.message.text.split(' ');
-  if (args.length !== 7) {
+  if (args.length !== 8) {
       return ctx.reply('⚠️ Format salah. Gunakan: `/addserver <domain> <auth> <harga> <nama_server> <quota> <iplimit> <batas_create_account>`', { parse_mode: 'Markdown' });
   }
 
@@ -2415,3 +2415,4 @@ app.listen(port, () => {
     });
     console.log(`Server berjalan di port ${port}`);
 });
+
