@@ -1,4 +1,4 @@
-# FTVPN Bot
+# JULAK Bot
 
 FTVPN Bot adalah bot serba otomatis untuk membeli layanan VPN dengan mudah dan cepat. Nikmati kemudahan dan kecepatan dalam layanan VPN dengan bot kami!
 
