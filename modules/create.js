@@ -104,7 +104,7 @@ async function createvmess(username, exp, quota, limitip, serverId) {
         return resolve('❌ Server tidak ditemukan. Silakan coba lagi.');
       }
 
-      if (!server) return resolve('❌ Server tidak ditemukan. Silakan coba lagi.');
+      if (!server) return resolve('❌ Selrver tidak ditemukan. Silakan coba lagi.');
 
       const domain = server.domain;
       const auth = server.auth;
