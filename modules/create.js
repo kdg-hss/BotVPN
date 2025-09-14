@@ -21,7 +21,7 @@ async function createssh(username, password, exp, iplimit, serverId) {
 
       const domain = server.domain;
       const auth = server.auth;
-      const param = `:2269/createssh?user=${username}&password=${password}&exp=${exp}&iplimit=${iplimit}&auth=${auth}`;
+      const param = `:5888/createssh?user=${username}&password=${password}&exp=${exp}&iplimit=${iplimit}&auth=${auth}`;
       const url = `http://${domain}${param}`;
       axios.get(url)
         .then(response => {
