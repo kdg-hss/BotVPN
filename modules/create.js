@@ -52,10 +52,6 @@ async function createssh(username, password, exp, iplimit, serverId) {
 │ *OVPN UDP* : \`2200\`
 │ *BadVPN UDP*: \`7100, 7300, 7300\`
 └─────────────────────
-🔒 *PUBKEY*
-\`\`\`
-${sshData.pubkey}
-\`\`\`
 🔗 *Link dan Payload*
 ───────────────────────
 WSS Payload      : 
@@ -64,8 +60,6 @@ GET wss://BUG.COM/ HTTP/1.1
 Host: ${sshData.domain}
 Upgrade: websocket
 \`\`\`
-OpenVPN Link     : [Download OpenVPN](https://${sshData.domain}:81/allovpn.zip)
-Save Account Link: [Save Account](https://${sshData.domain}:81/ssh-${sshData.username}.txt)
 ───────────────────────
 ┌─────────────────────
 │ Expires: \`${sshData.expired}\`
